@@ -1,0 +1,28 @@
+object Form1: TForm1
+  Left = 641
+  Height = 74
+  Top = 0
+  Width = 136
+  Caption = 'Form1'
+  ClientHeight = 74
+  ClientWidth = 136
+  LCLVersion = '2.0.8.0'
+  object btCreateBMP: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 120
+    Caption = 'Create BMP'
+    OnClick = btCreateBMPClick
+    TabOrder = 0
+  end
+  object btCreatePNG: TButton
+    Left = 8
+    Height = 25
+    Top = 41
+    Width = 120
+    Caption = 'Create PNG'
+    OnClick = btCreatePNGClick
+    TabOrder = 1
+  end
+end
